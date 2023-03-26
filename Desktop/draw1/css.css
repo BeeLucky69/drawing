@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#canvas {
+    border: 1px solid #ccc;
+}
+
+.tools {
+    display: flex;
+    margin-top: 10px;
+}
+
+.tools button {
+    border: none;
+    background-color: #fff;
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.tools button.active {
+    background-color: #ccc;
+}
+
+.tools button:hover {
+    cursor: pointer;
+    color: red;
+}
